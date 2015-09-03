@@ -1,0 +1,82 @@
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\MyStories.Service.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\MyStories.Service.pdb
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\Service.Pattern.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\EntityFramework.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\LinqKit.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.pdb
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.pdb
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.pdb
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.pdb
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\Service.Pattern.pdb
+D:\FlatClub\MyStories\MyStories.Service\bin\Debug\EntityFramework.xml
+D:\FlatClub\MyStories\MyStories.Service\obj\Debug\MyStories.Service.csprojResolveAssemblyReference.cache
+D:\FlatClub\MyStories\MyStories.Service\obj\Debug\MyStories.Service.dll
+D:\FlatClub\MyStories\MyStories.Service\obj\Debug\MyStories.Service.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\obj\Debug\MyStories.Service.csprojResolveAssemblyReference.cache
+D:\FlatClub\MyStories\MyStories\MyStories.Service\obj\Debug\MyStories.Service.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\MyStories.Service.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\MyStories.Service.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Service.Pattern.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\EntityFramework.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\LinqKit.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Service.Pattern.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\EntityFramework.xml
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\FlatClub\MyStories\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\FlatClub\MyStories\MyStories\MyStories.Service\obj\Debug\MyStories.Service.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Service.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Service.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Service.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\EntityFramework.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\LinqKit.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Service.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\EntityFramework.xml
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\obj\Debug\MyStories.Service.csprojResolveAssemblyReference.cache
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\obj\Debug\MyStories.Service.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\MyStories.Service\obj\Debug\MyStories.Service.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Service.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Service.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Service.Pattern.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\EntityFramework.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\LinqKit.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Entities.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\MyStories.Repository.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.Ef6.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Repository.Pattern.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Service.Pattern.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\EntityFramework.xml
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Projects New\Test Projects\MyStories\MyStories.Service\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Projects New\Test Projects\MyStories\MyStories.Service\obj\Debug\MyStories.Service.csprojResolveAssemblyReference.cache
+D:\Projects New\Test Projects\MyStories\MyStories.Service\obj\Debug\MyStories.Service.dll
+D:\Projects New\Test Projects\MyStories\MyStories.Service\obj\Debug\MyStories.Service.pdb

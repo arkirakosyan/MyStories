@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogManager\LogManager.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="ServiceActionResult.cs" />
     <Compile Include="StoredProcedureService.cs" />
     <Compile Include="GroupService.cs" />
@@ -68,6 +71,37 @@
       <Project>{86f86650-ee3c-4372-8fec-40c2fe015022}</Project>
       <Name>Service.Pattern</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\LinqKit.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.pdb" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.xml" />
+    <Content Include="bin\Debug\MyStories.Entities.dll" />
+    <Content Include="bin\Debug\MyStories.Entities.pdb" />
+    <Content Include="bin\Debug\MyStories.Repository.dll" />
+    <Content Include="bin\Debug\MyStories.Repository.pdb" />
+    <Content Include="bin\Debug\MyStories.Service.dll" />
+    <Content Include="bin\Debug\MyStories.Service.pdb" />
+    <Content Include="bin\Debug\Repository.Pattern.dll" />
+    <Content Include="bin\Debug\Repository.Pattern.Ef6.dll" />
+    <Content Include="bin\Debug\Repository.Pattern.Ef6.pdb" />
+    <Content Include="bin\Debug\Repository.Pattern.pdb" />
+    <Content Include="bin\Debug\Service.Pattern.dll" />
+    <Content Include="bin\Debug\Service.Pattern.pdb" />
+    <Content Include="obj\Debug\MyStories.Service.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\MyStories.Service.dll" />
+    <Content Include="obj\Debug\MyStories.Service.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\MyStories.Service.csprojResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
