@@ -1,0 +1,69 @@
+﻿@{
+    ViewBag.Title = "Groups";
+}
+<h2 class="page-title">
+    <!-- PAGE HEADER -->
+    <i class="glyphicon glyphicon-th-list"></i>
+    @ViewBag.Title
+</h2>
+@section scripts {
+    <script src="~/Content/js/Group.js?v=@ViewBag.AppVersion"></script>
+    <script type="text/javascript">
+        var GetGroupsURL,DeleteGroupURL,  SaveGroupURL;
+        $(document).ready(function () {
+            DeleteGroupURL = '@Url.Action("Delete", "Group")';
+            GetGroupsURL = '@Url.Action("GetGroupDetails", "Group")';
+            SaveGroupURL = '@Url.Action("SaveGroup", "Group")';
+            Group.init();
+        });
+    </script>
+}
+
+<section id="widget-grid" style="margin-bottom: 5px;">
+    <div class="jarviswidget jarviswidget-color-blueLight jarviswidget-collapsed jarviswidget-sortable" id="wid-id-4" role="widget" data-widget-deletebutton="false" data-widget-colorbutton="false" data-widget-fullscreenbutton="false" data-widget-editbutton="false" data-widget-collapsed="true" style="margin:0px;">
+        <header style="margin:0;">
+            <div class="headerDiv m-l-5 m-t-5">
+                <div class="searchToolBar p-b-5 p-r-5">
+                    <input type="button" onclick="Group.addGroupClick()" id='btnNewGroup' value="Add Group" />
+                </div>
+            </div>
+        </header>
+    </div>
+</section>
+<div id="grid"></div>
+
+
+
+<div class="modal" style="display:none;" id="newGroupModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="padding-top:0px;width: 100%">
+        <div id="GroupForm" enctype="multipart/form-data" class="GroupForm" data-parsley-validate="true" data-parsley-excluded="input[type=button], input[type=submit], input[type=reset], input[type=hidden], [disabled], :hidden">
+            <div id="GroupBody" class="modal-body form-horizontal" style="padding-bottom: 0px;">
+                <input type="hidden" id="hdnGroupID" name="userid" value="0" />
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Name:</label>
+                    <div class="col-md-8 p-l-5">
+                        <input type="text" id="txtName" name="txtName" maxlength="100" class="popupInput" data-parsley-required="true" data-parsley-required-message="Name is required">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Posted On:</label>
+                    <div class="col-md-8 p-l-5">
+                        <div id="dtPostedOn"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Description:</label>
+                    <div class="col-md-8 p-l-5">
+                        <textarea id="txtDesc" name="txtDesc" class="popupInput" style="min-height:100px;"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="btnCloseGroupModal">Close</button>
+                <button type="button" id="btnSaveGroup" class="btn btn-primary" onclick="Group.saveGroup()">Save</button>
+                <button type="button" id="btnDeleteGroup" class="btn btn-primary">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>

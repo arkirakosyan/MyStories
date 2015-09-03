@@ -1,0 +1,79 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <!-- #FAVICONS -->
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="~/Content/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/myStories.css" rel="stylesheet" />
+    <link href="~/Content/jqx.base.css" rel="stylesheet" />
+    <link href="~/Content/jqx.Story.css" rel="stylesheet"/>
+    <link href="~/Content/parsley.css" rel="stylesheet" />
+
+    <!-- ================== END PAGE LEVEL STYLE ================== -->
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/globalization/globalize.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    @if(this.Request.IsAuthenticated)
+                    { 
+                    <li>@Html.ActionLink("My Stories", "Index", "Story")</li>
+                    <li>@Html.ActionLink("Groups", "Index", "Group")</li>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+<div class="container body-content">
+    <div id="dvMsgs">
+        <div id="successAlert" class="hide alert alert-success">
+            <span class="close" onclick="$('#successAlert').hide()">&times;</span>
+            <strong id="strSuccess">Success! </strong><span id="successMSG"></span>
+        </div>
+        <div id="errorAlert" class="hide alert alert-danger">
+            <span class="close" onclick="$('#errorAlert').hide()">&times;</span>
+            <strong>Error! </strong><span id="errorMSG"></span>
+        </div>
+    </div>
+    <div class="bodyContainer">
+        @RenderBody()
+    </div>
+    <hr/>
+    <footer>
+        <p>&copy; @DateTime.Now.Year</p>
+    </footer>
+</div>
+<script type="text/javascript">
+    var loggedUserId = '@User.Identity.GetUserId()';
+</script>
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+        <!-- ================== BEGIN BASE JS ================== -->
+        <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jqx-all.js"></script>
+    <script src="~/Scripts/parsley.js"></script>
+
+    <script type="text/javascript" src="~/Content/js/Layout.js"></script>
+    <!-- ================== END PAGE LEVEL JS ================== -->
+</body>
+</html>

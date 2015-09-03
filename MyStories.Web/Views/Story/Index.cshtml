@@ -1,0 +1,119 @@
+﻿@{
+    ViewBag.Title = "Stories";
+}
+<h2 class="page-title">
+    <!-- PAGE HEADER -->
+    <i class="glyphicon glyphicon-file"></i>
+    @ViewBag.Title
+</h2>
+@section scripts {
+    <script src="~/Content/js/Story.js?v=@ViewBag.AppVersion"></script>
+    <script type="text/javascript">
+    var GetMyStoriesURL,DeleteStoryURL,  SaveStoryURL, GetStoryURL;
+    $(document).ready(function () {
+        DeleteStoryURL = '@Url.Action("Delete", "Story")';
+        GetMyStoriesURL = '@Url.Action("GetMyStories", "Story")';
+        SaveStoryURL = '@Url.Action("SaveStory", "Story")';
+        GetStoryURL ='@Url.Action("GetStory", "Story")';
+        GetAllGroupsURL = '@Url.Action("GetAllGroups", "Story")';
+        Story.init();
+    });
+    </script>
+}
+
+<section id="widget-grid" style="margin-bottom: 5px;">
+    <div class="jarviswidget jarviswidget-color-blueLight jarviswidget-collapsed jarviswidget-sortable" id="wid-id-4" role="widget" data-widget-deletebutton="false" data-widget-colorbutton="false" data-widget-fullscreenbutton="false" data-widget-editbutton="false" data-widget-collapsed="true" style="margin:0px;">
+        <header style="margin:0;">
+            <div class="headerDiv m-l-5 m-t-5">
+                <div class="searchToolBar p-b-5 p-r-5">
+                    <span>Search: </span>
+                    <input id='searchField' type='text' class="inputBox"/>
+                    <a id="goBtn" href="javascript:void(0);" class="button-icon" rel="tooltip" data-original-title="Search"><i class="glyphicon glyphicon-search"></i></a>
+                    <span style="padding-left: 15px;">All Stories: </span>
+                    <input id='showAllStories' type='checkbox' >
+                    <input type="button" onclick="Story.addStoryClick()" id='btnNewStory' value="Add Story" />
+                </div>
+            </div>
+        </header>
+    </div>
+</section>
+<div id="grid"></div>
+
+
+<div class="modal" style="display:none;" id="newStoryModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="padding-top:0px;width: 100%">
+        <div id="storyForm" enctype="multipart/form-data" class="storyForm" data-parsley-validate="true" data-parsley-excluded="input[type=button], input[type=submit], input[type=reset], input[type=hidden], [disabled], :hidden">
+            <div id="storyBody" class="modal-body form-horizontal" style="padding-bottom: 0px;">
+                <input type="hidden" id="hdnStoryID" name="userid" value="0" />
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Title:</label>
+                    <div class="col-md-8 p-l-5">
+                        <input type="text" id="txtTitle" name="txtTitle" maxlength="100" class="popupInput" data-parsley-required="true" data-parsley-required-message="Title is required">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Posted On:</label>
+                    <div class="col-md-8 p-l-5">
+                        <div id="dtPostedOn"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Description:</label>
+                    <div class="col-md-8 p-l-5">
+                        <textarea id="txtDesc" name="txtDesc" class="popupInput" style="min-height:100px;"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Content:</label>
+                    <div class="col-md-8 p-l-5">
+                        <textarea id="txtContent" name="txtContent" class="popupInput" style="min-height:100px;"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Groups:</label>
+                    <div class="col-md-8 p-l-5">
+                        <div id='groupsList'></div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="btnCloseStoryModal">Close</button>
+                <button type="button" id="btnSaveStory" class="btn btn-primary" onclick="Story.saveStory()">Save</button>
+                <button type="button" id="btnDeleteStory" class="btn btn-primary">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" style="display:none;" id="ViewStoryModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="padding-top:0px;width: 100%">
+        <div id="ViewStoryForm" enctype="multipart/form-data" class="storyForm">
+            <div id="ViewStoryBody" class="modal-body form-horizontal" style="padding-bottom: 0px;">
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Description:</label>
+                    <div class="col-md-8 p-l-5">
+                        <label id="lblDesc" class="control-label-view"></label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Content:</label>
+                    <div class="col-md-8 p-l-5">
+                        <label id="lblContent" class="control-label-view"></label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label p-r-5">Groups:</label>
+                    <div class="col-md-8 p-l-5">
+                        <label id='lblGroupsList' class="control-label-view"></label>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="btnCloseViewStoryModal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
