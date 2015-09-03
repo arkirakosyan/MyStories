@@ -1,0 +1,34 @@
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Service.Pattern.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Service.Pattern.pdb
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\System.Net.Http.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\obj\Debug\Service.Pattern.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Service.Pattern\obj\Debug\Service.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\bin\Debug\Service.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\bin\Debug\Service.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\bin\Debug\Repository.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\bin\Debug\System.Net.Http.dll
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\obj\Debug\Service.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\Source\Service.Pattern\obj\Debug\Service.Pattern.pdb
+D:\FlatClub\MyStories\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+D:\FlatClub\MyStories\Service.Pattern\bin\Debug\Service.Pattern.dll
+D:\FlatClub\MyStories\Service.Pattern\bin\Debug\Service.Pattern.pdb
+D:\FlatClub\MyStories\Service.Pattern\bin\Debug\Repository.Pattern.dll
+D:\FlatClub\MyStories\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+D:\FlatClub\MyStories\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+D:\FlatClub\MyStories\Service.Pattern\obj\Debug\Service.Pattern.dll
+D:\FlatClub\MyStories\Service.Pattern\obj\Debug\Service.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\bin\Debug\Service.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\bin\Debug\Service.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\bin\Debug\Repository.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\obj\Debug\Service.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\Service.Pattern\obj\Debug\Service.Pattern.pdb
