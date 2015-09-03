@@ -1,0 +1,23 @@
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+D:\Arman's Docs\Projects\Test Projects\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+D:\Arman's Docs\Projects\Test Projects\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\Source\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\Source\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+D:\Arman's Docs\Projects\Test Projects\Source\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\Source\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+D:\FlatClub\MyStories\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+D:\FlatClub\MyStories\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+D:\FlatClub\MyStories\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+D:\FlatClub\MyStories\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+D:\FlatClub\MyStories\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+D:\FlatClub\MyStories\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+D:\Arman's Docs\Projects\Test Projects\MyStories\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+D:\Arman's Docs\Projects\Test Projects\MyStories\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+D:\Arman's Docs\Projects\Test Projects\MyStories\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
