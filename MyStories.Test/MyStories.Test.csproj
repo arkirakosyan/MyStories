@@ -58,6 +58,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTests\Fake\MyStoriesFakeContext.cs" />
     <Compile Include="UnitTests\Fake\MyStoriesFakeDbSets.cs" />
@@ -85,10 +88,39 @@
       <Name>Service.Pattern</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\LinqKit.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.pdb" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.xml" />
+    <Content Include="bin\Debug\MyStories.Entities.dll" />
+    <Content Include="bin\Debug\MyStories.Entities.pdb" />
+    <Content Include="bin\Debug\MyStories.Repository.dll" />
+    <Content Include="bin\Debug\MyStories.Repository.pdb" />
+    <Content Include="bin\Debug\MyStories.Test.dll" />
+    <Content Include="bin\Debug\MyStories.Test.pdb" />
+    <Content Include="bin\Debug\Repository.Pattern.dll" />
+    <Content Include="bin\Debug\Repository.Pattern.Ef6.dll" />
+    <Content Include="bin\Debug\Repository.Pattern.Ef6.pdb" />
+    <Content Include="bin\Debug\Repository.Pattern.pdb" />
+    <Content Include="bin\Debug\Service.Pattern.dll" />
+    <Content Include="bin\Debug\Service.Pattern.pdb" />
+    <Content Include="obj\Debug\MyStories.Test.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\MyStories.Test.dll" />
+    <Content Include="obj\Debug\MyStories.Test.pdb" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\MyStories.Test.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\MyStories.Test.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
